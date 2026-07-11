@@ -21,8 +21,8 @@ curl -X POST https://api.getavna.com/v1/sites \
 
 | Repository | What | License |
 |---|---|---|
-| `sdk` *(coming soon)* | The banner SDK — < 5 KB gzipped, zero dependencies | MIT |
-| `jurisdictions` *(coming soon)* | Cookie-consent doctrine for 56 jurisdictions, sourced from the national authorities | CC-BY-4.0 |
+| [`avna`](https://github.com/getavna/avna) *(coming soon)* | The banner SDK — < 5 KB gzipped, zero dependencies | MIT |
+| [`jurisdictions`](https://github.com/getavna/jurisdictions) *(coming soon)* | Cookie-consent doctrine for 56 jurisdictions, sourced from the national authorities | CC-BY-4.0 |
 
 More to come: the `consent.txt` spec for agent-mediated consent, and our MCP server.
 
