@@ -6,7 +6,7 @@ A one-line banner, consent records with signed receipts, hosted in France. Free 
 
 ```html
 <!-- one line, in your <head> -->
-<script src="https://api.getavna.com/sdk.js" data-site="cs_…"></script>
+<script src="https://api.getavna.com/avna.js" data-site="cs_…"></script>
 ```
 
 ```sh
@@ -21,10 +21,10 @@ curl -X POST https://api.getavna.com/v1/sites \
 
 | Repository | What | License |
 |---|---|---|
-| [`avna`](https://github.com/getavna/avna) *(coming soon)* | The banner SDK — < 5 KB gzipped, zero dependencies | MIT |
-| [`jurisdictions`](https://github.com/getavna/jurisdictions) *(coming soon)* | Cookie-consent doctrine for 56 jurisdictions, sourced from the national authorities | CC-BY-4.0 |
+| [`avna`](https://github.com/getavna/avna) | The banner SDK — < 5 KB gzipped, zero dependencies | MIT |
+| [`jurisdictions`](https://github.com/getavna/jurisdictions) | Cookie-consent doctrine for 56 jurisdictions, sourced from the national authorities | CC-BY-4.0 |
 
-More to come: the `consent.txt` spec for agent-mediated consent, and our MCP server.
+The SDK you drop on your site and the doctrine it applies are both open — read them and fork them. The hosted backend keeps your records in France; the self-hostable backend is opening next. The SDK, CLI, API, a stdio MCP server and per-site `consent.txt` are already live — a formal `consent.txt` spec for agent-mediated consent is next.
 
 ---
 
